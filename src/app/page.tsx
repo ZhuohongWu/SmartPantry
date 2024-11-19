@@ -9,7 +9,7 @@ import FoodItemsContext from '../context/FoodItemsContext';
 
 const HomePage = () => {
   const foodItemsContext = useContext(FoodItemsContext);
-
+//lklj
   if (!foodItemsContext) {
     return <div>Loading...</div>;
   }
